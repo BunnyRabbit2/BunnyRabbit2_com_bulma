@@ -1,5 +1,5 @@
 <!-- Profile -->
-<section class="hero is-primary">
+<section class="hero is-primary is-bold">
     <div class="hero-body">
       <div class="container has-text-centered">
         <div class="level">
@@ -10,7 +10,7 @@
           </div>
         </div>
         <h1 class="is-size-1 is-uppercase has-text-weight-bold">BunnyRabbit2</h1>
-        <hr class="name-divider"></hr>
+        <hr class="page-divider"></hr>
         <h2 class="is-size-4">Coder - Geek - Gamer</h2>
       </div>
     </div>
