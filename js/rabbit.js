@@ -12,7 +12,3 @@ if (document.readyState === "complete") {
         var accordions = bulmaAccordion.attach();
     }, false);
 }
-
-function fuckingTest() {
-    var test = accordions;
-};

@@ -1,38 +1,54 @@
-<?php
+<article class="accordion is-info is-active">
+    <div class="accordion-header">
+        <p>2D Terrain Generator</p>
+        <button class="toggle" aria-label="toggle"></button>
+    </div>
+    <div class="accordion-body">
+        <div class="accordion-content">
 
-$p_2DTerrainGen = new Rbt_Project;
+            <div class="level">
+                <div class="level-item has-text-centered">
+                    <figure class='image is-256x256'>
+                        <img class="profile-pic" src='/img/portfolio/2D-terrain-gen.png'>
+                    </figure>
+                </div>
+            </div>
 
-//$nameIn, $aboutIn, $imageIn, $gogsLinkIn, $downloadLinksIn, $dateStartIn, $dateEndIn, $languageAndSkillsIn, $weblink, $caption
-$p_2DTerrainGen->create(
-    "2D Terrain Generator",
-    "<p>I built this while beginning to get into procedural generation. It's pretty simple and I hope to go on to make a 3D version to make terrain meshes.</p>
-							
-        <h3>Controls</h2>
-        
-        <ul>
-            <li>A - Decrease starting level of generation. Cannot go below 1</li>
-            <li>Q - Increase starting level of generation. Cannot go above 3</li>
-            <li>S - Decrease level generated to. Cannot go below starting level</li>
-            <li>W - Increase level generated to.</li>
-            <li>D - Decrease current level of generation. Cannot go below level generated to.</li>
-            <li>E - Increase current level of generation</li>
-            <li>F - Decrease range of randomness from midpoint in points generated</li>
-            <li>R - Increase range of randomness from midpoint in points generated</li>
-        </ul>
+            <div class="columns">
+                <div class="column">
+                    <p>Date built:
+                        <strong>September 2013</strong>
+                    </p>
 
-        <h3>Dependencies</h2>
+                    <p>Languages and skills used:
+                        <strong>C++, SFML</strong>
+                    </p>
 
-        <p>Requires SFML to build. Open-sans font is included. Licence for that is in LICENCE.txt in the same folder</p>",
-    "img/portfolio/2D-terrain-gen.png",
-    "<a href=\"http://gogs.bunnyrabbit2.com/bunnyrabbit2/2D_Terrain_Gen\">Bunny 2D Terrain Gen</a>",
-    "<li class=\"btn btn-default btn-lg\"><a href=\"http://gogs.bunnyrabbit2.com/bunnyrabbit2/2D_Terrain_Gen/src/V1.0\">EXE</a></li>
-        <li class=\"btn btn-default btn-lg\"><a href=\"http://gogs.bunnyrabbit2.com/bunnyrabbit2/2D_Terrain_Gen/archive/V1.0.zip\">ZIP</a></li>
-        <li class=\"btn btn-default btn-lg\"><a href=\"http://gogs.bunnyrabbit2.com/bunnyrabbit2/2D_Terrain_Gen/archive/V1.0.tar.gz\">TAR</a></li>",
-    "September 2013",
-    "",
-    "C++, SFML",
-    "",
-    "Terrain Generator Image"
-);
+                    <p>Github link:
+                        <a href="https://github.com/BunnyRabbit2/2DTerrainGen" title="Github link for Bunny 2D Terrain Gen">Bunny 2D Terrain Gen</a>
+                    </p>
 
-?>
+                    <p>I built this while beginning to get into procedural generation. It's pretty simple and I hope to go on
+                        to make a 3D version to make terrain meshes.</p>
+
+                    <h3 class="title is-3">Controls</h3>
+
+                    <ul>
+                        <li>A - Decrease starting level of generation. Cannot go below 1</li>
+                        <li>Q - Increase starting level of generation. Cannot go above 3</li>
+                        <li>S - Decrease level generated to. Cannot go below starting level</li>
+                        <li>W - Increase level generated to.</li>
+                        <li>D - Decrease current level of generation. Cannot go below level generated to.</li>
+                        <li>E - Increase current level of generation</li>
+                        <li>F - Decrease range of randomness from midpoint in points generated</li>
+                        <li>R - Increase range of randomness from midpoint in points generated</li>
+                    </ul>
+
+                    <h3 class="title is-3">Dependencies</h3>
+
+                    <p>Requires SFML to build. Open-sans font is included. Licence for that is in LICENCE.txt in the same folder</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>

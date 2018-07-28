@@ -1,52 +1,18 @@
 <!-- Portfolio -->
-<section class="hero is-info is-bold">
-  <section class="accordions">
-    <article class="accordion is-active" onclick="fuckingTest">
-      <div class="accordion-header toggle">
-        <p>Hello World</p>
+<section id="portfolio" class="hero is-bold">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title is-1 is-uppercase">Portfolio</h1>
+      <hr class="page-divider"></hr>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-two-thirds">
+        <section class="accordions">
+
+          <?php include("projects/p_2DTerrainGen.php"); ?>
+
+        </section>
       </div>
-      <div class="accordion-body">
-        <div class="accordion-content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla.
-          Nullam gravida purus diam, et dictum
-          <a>felis venenatis</a> efficitur. Aenean ac
-          <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula,
-          id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
-        </div>
-      </div>
-    </article>
-    <article class="accordion">
-      <div class="accordion-header">
-        <p>Hello World</p>
-        <button class="toggle" aria-label="toggle"></button>
-      </div>
-      <div class="accordion-body">
-        <div class="accordion-content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla.
-          Nullam gravida purus diam, et dictum
-          <a>felis venenatis</a> efficitur. Aenean ac
-          <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula,
-          id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
-        </div>
-      </div>
-    </article>
-    <article class="accordion">
-      <div class="accordion-header">
-        <p>Hello World</p>
-        <button class="toggle" aria-label="toggle"></button>
-      </div>
-      <div class="accordion-body">
-        <div class="accordion-content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla.
-          Nullam gravida purus diam, et dictum
-          <a>felis venenatis</a> efficitur. Aenean ac
-          <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula,
-          id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
-        </div>
-      </div>
-    </article>
-  </section>
+    </div>
+  </div>
 </section>
