@@ -9,10 +9,30 @@
             <div class="level">
                 <div class="level-item has-text-centered">
                     <figure class="image is-256x256">
-                        <img class="profile-pic" src="/img/portfolio/magic-mirror.png" title="">
+                        <img id="magicmirror-image" class="profile-pic" src="/img/portfolio/magic-mirror.png" title="Magic Mirror Website Image">
                     </figure>
                 </div>
             </div>
+
+            <div class="modal" id="magicmirror-modal">
+                <div class="modal-background"></div>
+                <div class="modal-content">
+                    <p class="image">
+                        <img src="/img/portfolio/magic-mirror.png" alt="Magic Mirror Website Image">
+                    </p>
+                </div>
+                <button id="magicmirror-modal-close" class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+            <script>
+                document.getElementById('magicmirror-image').onclick = function () {
+                    document.getElementById('magicmirror-modal').classList.toggle('is-active');
+                }
+
+                document.getElementById('magicmirror-modal-close').onclick = function () {
+                    document.getElementById('magicmirror-modal').classList.toggle('is-active');
+                }
+            </script>
 
             <div class="columns">
                 <div class="column">

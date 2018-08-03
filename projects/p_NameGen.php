@@ -9,13 +9,53 @@
             <div class="level">
                 <div class="level-item has-text-centered">
                     <figure class='image is-256x256'>
-                        <img class="profile-pic" src='/img/portfolio/nameGen-Screenshot001.png' title="Bunny Name Generator Image">
+                        <img id="namegen-image-1" class="profile-pic" src='/img/portfolio/nameGen-Screenshot001.png' title="Bunny Name Generator Image">
                     </figure>
                     <figure class='image is-256x256'>
-                        <img class="profile-pic" src='/img/portfolio/nameGen-Screenshot002.png' title="Bunny Name Generator Image">
+                        <img id="namegen-image-2" class="profile-pic" src='/img/portfolio/nameGen-Screenshot002.png' title="Bunny Name Generator Image">
                     </figure>
                 </div>
             </div>
+
+            <div class="modal" id="namegen-modal-1">
+                <div class="modal-background"></div>
+                <div class="modal-content">
+                    <p class="image">
+                        <img src="/img/portfolio/nameGen-Screenshot001.png" alt="">
+                    </p>
+                </div>
+                <button id="namegen-modal-close-1" class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+            <script>
+                document.getElementById('namegen-image-1').onclick = function () {
+                    document.getElementById('namegen-modal-1').classList.toggle('is-active');
+                }
+
+                document.getElementById('namegen-modal-close-1').onclick = function () {
+                    document.getElementById('namegen-modal-1').classList.toggle('is-active');
+                }
+            </script>
+
+            <div class="modal" id="namegen-modal-2">
+                <div class="modal-background"></div>
+                <div class="modal-content">
+                    <p class="image">
+                        <img src="/img/portfolio/nameGen-Screenshot002.png" alt="">
+                    </p>
+                </div>
+                <button id="namegen-modal-close-2" class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+            <script>
+                document.getElementById('namegen-image-2').onclick = function () {
+                    document.getElementById('namegen-modal-2').classList.toggle('is-active');
+                }
+
+                document.getElementById('namegen-modal-close-2').onclick = function () {
+                    document.getElementById('namegen-modal-2').classList.toggle('is-active');
+                }
+            </script>
 
             <div class="columns">
                 <div class="column">

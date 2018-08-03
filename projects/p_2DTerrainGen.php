@@ -9,24 +9,44 @@
             <div class="level">
                 <div class="level-item has-text-centered">
                     <figure class='image is-256x256'>
-                        <img class="profile-pic" src='/img/portfolio/2D-terrain-gen.png'>
+                        <img id="terrain-gen-image" class="profile-pic" src='/img/portfolio/2D-terrain-gen.png'>
                     </figure>
                 </div>
             </div>
 
+            <div class="modal" id="terrain-gen-modal">
+                <div class="modal-background"></div>
+                <div class="modal-content">
+                    <p class="image">
+                        <img src="/img/portfolio/2D-terrain-gen.png" alt="">
+                    </p>
+                </div>
+                <button id="terrain-gen-modal-close" class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+            <script>
+                document.getElementById('terrain-gen-image').onclick = function () {
+                    document.getElementById('terrain-gen-modal').classList.toggle('is-active');
+                }
+
+                document.getElementById('terrain-gen-modal-close').onclick = function () {
+                    document.getElementById('terrain-gen-modal').classList.toggle('is-active');
+                }
+            </script>
+
             <div class="columns">
                 <div class="column">
-                <h5 class="subtitle is-5">Date built:
+                    <h5 class="subtitle is-5">Date built:
                         <strong>September 2013</strong>
-                    </h4>
+                        </h4>
 
-                    <h5 class="subtitle is-5">Languages and skills used:
-                        <strong>C++, SFML</strong>
-                    </h4>
+                        <h5 class="subtitle is-5">Languages and skills used:
+                            <strong>C++, SFML</strong>
+                            </h4>
 
-                    <h5 class="subtitle is-5">
-                        <a href="https://github.com/BunnyRabbit2/2DTerrainGen" title="Github link for Bunny 2D Terrain Gen">Github link</a>
-                    </h4>
+                            <h5 class="subtitle is-5">
+                                <a href="https://github.com/BunnyRabbit2/2DTerrainGen" title="Github link for Bunny 2D Terrain Gen">Github link</a>
+                                </h4>
                 </div>
             </div>
             <div class="columns">

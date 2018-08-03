@@ -9,10 +9,30 @@
             <div class="level">
                 <div class="level-item has-text-centered">
                     <figure class="image is-256x256">
-                        <img class="profile-pic" src="/img/portfolio/" title="">
+                        <img id="x-image" class="profile-pic" src="/img/portfolio/" title="">
                     </figure>
                 </div>
             </div>
+
+            <div class="modal" id="x-modal">
+                <div class="modal-background"></div>
+                <div class="modal-content">
+                    <p class="image">
+                        <img src="/img/portfolio/" alt="">
+                    </p>
+                </div>
+                <button id="x-modal-close" class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+            <script>
+                document.getElementById('x-image').onclick = function () {
+                    document.getElementById('x-modal').classList.toggle('is-active');
+                }
+
+                document.getElementById('x-modal-close').onclick = function () {
+                    document.getElementById('x-modal').classList.toggle('is-active');
+                }
+            </script>
 
             <div class="columns">
                 <div class="column">

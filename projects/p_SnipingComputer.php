@@ -9,13 +9,53 @@
             <div class="level">
                 <div class="level-item has-text-centered">
                     <figure class="image is-256x256">
-                        <img class="profile-pic" src="/img/portfolio/sniping-computer001.png" title="BF3 Sniping Computer Image">
+                        <img id="snipingcomputer-image-1" class="profile-pic" src="/img/portfolio/sniping-computer001.png" title="BF3 Sniping Computer Image">
                     </figure>
                     <figure class="image is-256x256">
-                        <img class="profile-pic" src="/img/portfolio/sniping-computer002.png" title="BF3 Sniping Computer Image">
+                        <img id="snipingcomputer-image-2" class="profile-pic" src="/img/portfolio/sniping-computer002.png" title="BF3 Sniping Computer Image">
                     </figure>
                 </div>
             </div>
+
+            <div class="modal" id="snipingcomputer-modal-1">
+                <div class="modal-background"></div>
+                <div class="modal-content">
+                    <p class="image">
+                        <img src="/img/portfolio/sniping-computer001.png" alt="">
+                    </p>
+                </div>
+                <button id="snipingcomputer-modal-close-1" class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+            <script>
+                document.getElementById('snipingcomputer-image-1').onclick = function () {
+                    document.getElementById('snipingcomputer-modal-1').classList.toggle('is-active');
+                }
+
+                document.getElementById('snipingcomputer-modal-close-1').onclick = function () {
+                    document.getElementById('snipingcomputer-modal-1').classList.toggle('is-active');
+                }
+            </script>
+
+            <div class="modal" id="snipingcomputer-modal-2">
+                <div class="modal-background"></div>
+                <div class="modal-content">
+                    <p class="image">
+                        <img src="/img/portfolio/sniping-computer002.png" alt="">
+                    </p>
+                </div>
+                <button id="snipingcomputer-modal-close-2" class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+            <script>
+                document.getElementById('snipingcomputer-image-2').onclick = function () {
+                    document.getElementById('snipingcomputer-modal-2').classList.toggle('is-active');
+                }
+
+                document.getElementById('snipingcomputer-modal-close-2').onclick = function () {
+                    document.getElementById('snipingcomputer-modal-2').classList.toggle('is-active');
+                }
+            </script>
 
             <div class="columns">
                 <div class="column">

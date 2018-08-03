@@ -9,10 +9,30 @@
             <div class="level">
                 <div class="level-item has-text-centered">
                     <figure class="image is-256x256">
-                        <img class="profile-pic" src="/img/portfolio/name-gen-web.png" title="Web Based Name Generator">
+                        <img id="namegenweb-image" class="profile-pic" src="/img/portfolio/name-gen-web.png" title="Web Based Name Generator">
                     </figure>
                 </div>
             </div>
+
+            <div class="modal" id="namegenweb-modal">
+                <div class="modal-background"></div>
+                <div class="modal-content">
+                    <p class="image">
+                        <img src="/img/portfolio/name-gen-web.png" alt="Web Based Name Generator">
+                    </p>
+                </div>
+                <button id="namegenweb-modal-close" class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+            <script>
+                document.getElementById('namegenweb-image').onclick = function () {
+                    document.getElementById('namegenweb-modal').classList.toggle('is-active');
+                }
+
+                document.getElementById('namegenweb-modal-close').onclick = function () {
+                    document.getElementById('namegenweb-modal').classList.toggle('is-active');
+                }
+            </script>
 
             <div class="columns">
                 <div class="column">

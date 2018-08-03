@@ -9,10 +9,30 @@
             <div class="level">
                 <div class="level-item has-text-centered">
                     <figure class="image is-256x256">
-                        <img class="profile-pic" src="/img/portfolio/robot-shootans.png" title="Robot Shootans Image">
+                        <img id="robotshootans-image" class="profile-pic" src="/img/portfolio/robot-shootans.png" title="Robot Shootans Image">
                     </figure>
                 </div>
             </div>
+
+            <div class="modal" id="robotshootans-modal">
+                <div class="modal-background"></div>
+                <div class="modal-content">
+                    <p class="image">
+                        <img src="/img/portfolio/robot-shootans.png" alt="">
+                    </p>
+                </div>
+                <button id="robotshootans-modal-close" class="modal-close is-large" aria-label="close"></button>
+            </div>
+
+            <script>
+                document.getElementById('robotshootans-image').onclick = function () {
+                    document.getElementById('robotshootans-modal').classList.toggle('is-active');
+                }
+
+                document.getElementById('robotshootans-modal-close').onclick = function () {
+                    document.getElementById('robotshootans-modal').classList.toggle('is-active');
+                }
+            </script>
 
             <div class="columns">
                 <div class="column">
