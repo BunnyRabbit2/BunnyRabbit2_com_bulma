@@ -19,6 +19,8 @@
 
           <?php include("projects/p_SnipingComputer.php"); ?>
 
+          <?php include("projects/p_BunnyMagicMirror.php"); ?>
+
         </section>
       </div>
     </div>
