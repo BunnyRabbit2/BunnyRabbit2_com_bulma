@@ -11,6 +11,14 @@
 
           <?php include("projects/p_2DTerrainGen.php"); ?>
 
+          <?php include("projects/p_NameGen.php"); ?>
+
+          <?php include("projects/p_NameGenWeb.php"); ?>
+
+          <?php include("projects/p_RobotShootans.php"); ?>
+
+          <?php include("projects/p_SnipingComputer.php"); ?>
+
         </section>
       </div>
     </div>

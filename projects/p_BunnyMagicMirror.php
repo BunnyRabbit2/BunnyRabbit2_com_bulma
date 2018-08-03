@@ -1,6 +1,6 @@
 <article class="accordion is-info">
     <div class="accordion-header">
-        <p>Web Based Name Generator</p>
+        <p>Bunny Magic Mirror</p>
         <button class="toggle" aria-label="toggle"></button>
     </div>
     <div class="accordion-body">
@@ -9,7 +9,7 @@
             <div class="level">
                 <div class="level-item has-text-centered">
                     <figure class="image is-256x256">
-                        <img class="profile-pic" src="/img/portfolio/name-gen-web.png" title="Web Based Name Generator">
+                        <img class="profile-pic" src="/img/portfolio/" title="">
                     </figure>
                 </div>
             </div>
@@ -17,26 +17,23 @@
             <div class="columns">
                 <div class="column">
                     <h5 class="subtitle is-5">Date built:
-                        <strong>March 2015 - April 2015</strong>
+                        <strong></strong>
                     </h5>
 
                     <h5 class="subtitle is-5">Languages and skills used:
-                        <strong>HTML, JS with JQuery</strong>
+                        <strong></strong>
                     </h5>
 
                     <h5 class="subtitle is-5">
-                        <a href="https://github.com/BunnyRabbit2/NameGen_Web" title="Github link for Web Based Name Generator">Github link</a>
+                        <a href="https://github.com/BunnyRabbit2/" title="Github link for ">Github link</a>
                     </h5>
 
-                    <h5 class="subtitle is-5">
-                        <a href="http://bunnyrabbit2.com/namegenweb" title="Website link for Web Based Name Generator">Website link</a>
-                    </h5>
                 </div>
             </div>
 
             <div class="columns">
                 <div class="column">
-                    <p>An online version of my name generator made entirely using JS and text files.</p>
+
                 </div>
             </div>
         </div>

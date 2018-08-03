@@ -1,4 +1,4 @@
-<article class="accordion is-info is-active">
+<article class="accordion is-info">
     <div class="accordion-header">
         <p>2D Terrain Generator</p>
         <button class="toggle" aria-label="toggle"></button>
@@ -16,22 +16,30 @@
 
             <div class="columns">
                 <div class="column">
-                    <p>Date built:
+                <h5 class="subtitle is-5">Date built:
                         <strong>September 2013</strong>
-                    </p>
+                    </h4>
 
-                    <p>Languages and skills used:
+                    <h5 class="subtitle is-5">Languages and skills used:
                         <strong>C++, SFML</strong>
-                    </p>
+                    </h4>
 
-                    <p>Github link:
-                        <a href="https://github.com/BunnyRabbit2/2DTerrainGen" title="Github link for Bunny 2D Terrain Gen">Bunny 2D Terrain Gen</a>
-                    </p>
+                    <h5 class="subtitle is-5">
+                        <a href="https://github.com/BunnyRabbit2/2DTerrainGen" title="Github link for Bunny 2D Terrain Gen">Github link</a>
+                    </h4>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column">
 
                     <p>I built this while beginning to get into procedural generation. It's pretty simple and I hope to go on
                         to make a 3D version to make terrain meshes.</p>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column">
 
-                    <h3 class="title is-3">Controls</h3>
+                    <h5 class="subtitle is-5">Controls</h5>
 
                     <ul>
                         <li>A - Decrease starting level of generation. Cannot go below 1</li>
@@ -43,10 +51,15 @@
                         <li>F - Decrease range of randomness from midpoint in points generated</li>
                         <li>R - Increase range of randomness from midpoint in points generated</li>
                     </ul>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column">
 
-                    <h3 class="title is-3">Dependencies</h3>
+                    <h5 class="subtitle is-5">Dependencies</h5>
 
-                    <p>Requires SFML to build. Open-sans font is included. Licence for that is in LICENCE.txt in the same folder</p>
+                    <p>Requires SFML to build. Open-sans font is included. Licence for that is in LICENCE.txt in the same folder
+                    </p>
                 </div>
             </div>
         </div>
