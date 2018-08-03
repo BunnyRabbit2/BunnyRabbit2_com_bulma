@@ -21,6 +21,8 @@
 
           <?php include("projects/p_BunnyMagicMirror.php"); ?>
 
+          <?php include("projects/p_BunnyRabbit2com.php"); ?>
+
         </section>
       </div>
     </div>
