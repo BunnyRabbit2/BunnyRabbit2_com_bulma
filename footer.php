@@ -1,15 +1,14 @@
 <!-- Footer -->
 <footer class="footer is-info">
   <div class="content has-text-centered">
-    <div class="level">
-
-      <div class="level-item">
-        <h3>Location</h3>
+    <div class="columns is-centered">
+      <div class="column is-one-third">
+        <h5 class="subtitle is-5">Location</h5>
         <p>Thanet
           <br>United Kingdom</p>
       </div>
-      <div class="level-item">
-        <h3>Around the Web</h3>
+      <div class="column is-one-third">
+        <h5 class="subtitle is-5">Social Links</h5>
         <div class="level">
           <div class="level-item">
             <a href="http://twitter.com/bunnyrabbit2">

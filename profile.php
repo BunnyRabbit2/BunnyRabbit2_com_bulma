@@ -9,9 +9,9 @@
           </figure>
         </div>
       </div>
-      <h1 class="title is-1 is-uppercase">BunnyRabbit2</h1>
+      <h1 class="title is-1 is-uppercase">Lewis "BunnyRabbit2" Storey</h1>
       <hr class="page-divider"></hr>
-      <h2 class="is-size-4">Coder - Geek - Gamer</h2>
+      <h2 class="subtitle is-3">Coder - Geek - Gamer</h2>
     </div>
   </div>
 </section>

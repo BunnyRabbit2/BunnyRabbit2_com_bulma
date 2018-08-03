@@ -9,8 +9,8 @@
         </div>
         <div class="columns is-centered">
             <div class="column is-one-quarter">
-                <p>I'm a long time programmer and general tech geek. I'm passionate about all things tech and cannot wait for
-                    the internet of things to be a common reality.</p>
+                <p>I'm a long time programmer and general tech geek. I'm passionate about all things tech and am always looking
+                    for the next thing to learn, make or do.</p>
             </div>
             <div class="column is-one-quarter">
                 <p>This site has some of my projects I've built in my free time. They are built in various languages using various
