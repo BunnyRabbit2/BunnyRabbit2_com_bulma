@@ -23,5 +23,14 @@
         </div>
       </div>
     </div>
+    <div class="columns is-centred">
+      <div class="column">
+        <p>Copyright &copy; BunnyRabbit2 (Lewis Storey) 2009-
+          <Script type="text/javascript">
+            document.write(new Date().getFullYear())
+          </Script>
+        </p>
+      </div>
+    </div>
   </div>
 </footer>
