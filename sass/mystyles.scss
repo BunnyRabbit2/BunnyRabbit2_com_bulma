@@ -1,14 +1,44 @@
 @charset "utf-8";
 $red: #bc1838;
+$dark-red: #881129;
 $brown: #503E2C;
 $dark-brown: #503E2C;
+$twitter-blue: #00aced;
+$github-black: #333;
 
 $primary: $red;
 $info: $brown;
+$footer-background-color: $dark-red;
 
 .image.is-256x256 {
     height: 256px;
     width: 256px;
+}
+
+a.twitter-link {
+    color: $twitter-blue;
+    border-radius: 100%;
+    border: 2px solid $twitter-blue;
+    padding: 0.75rem;
+    transition: all .3s ease-in-out;
+}
+
+a.twitter-link:hover {
+    color: $twitter-blue;
+    background-color: white;
+}
+
+a.github-link {
+    color: $github-black;
+    border-radius: 100%;
+    border: 2px solid $github-black;
+    padding: 0.75rem;
+    transition: all .3s ease-in-out;
+}
+
+a.github-link:hover {
+    color: $github-black;
+    background-color: white;
 }
 
 hr.page-divider {
@@ -23,6 +53,11 @@ hr.page-divider {
 img.profile-pic {
     border: 3px solid #ecf0f1;
     border-radius: 4px;
+}
+
+section.hero-extra-padding {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 @import "../node_modules/bulma/bulma.sass";

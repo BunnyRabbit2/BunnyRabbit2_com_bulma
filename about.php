@@ -1,5 +1,5 @@
 <!-- About -->
-<section id="about" class="hero is-primary is-bold">
+<section id="about" class="hero is-primary is-bold hero-extra-padding">
     <div class="hero-body">
         <div class=" columns">
             <div class="column has-text-centered">

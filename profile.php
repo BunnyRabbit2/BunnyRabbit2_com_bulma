@@ -1,5 +1,5 @@
 <!-- Profile -->
-<section class="hero is-primary is-bold">
+<section class="hero is-primary is-bold hero-extra-padding">
   <div class="hero-body">
     <div class="container has-text-centered">
       <div class="level">

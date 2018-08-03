@@ -2,6 +2,28 @@
   height: 256px;
   width: 256px; }
 
+a.twitter-link {
+  color: #00aced;
+  border-radius: 100%;
+  border: 2px solid #00aced;
+  padding: 0.75rem;
+  transition: all .3s ease-in-out; }
+
+a.twitter-link:hover {
+  color: #00aced;
+  background-color: white; }
+
+a.github-link {
+  color: #333;
+  border-radius: 100%;
+  border: 2px solid #333;
+  padding: 0.75rem;
+  transition: all .3s ease-in-out; }
+
+a.github-link:hover {
+  color: #333;
+  background-color: white; }
+
 hr.page-divider {
   margin: 25px auto 30px;
   padding: 0;
@@ -13,6 +35,10 @@ hr.page-divider {
 img.profile-pic {
   border: 3px solid #ecf0f1;
   border-radius: 4px; }
+
+section.hero-extra-padding {
+  padding-top: 6rem;
+  padding-bottom: 6rem; }
 
 /*! bulma.io v0.7.1 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
@@ -6432,7 +6458,7 @@ label.panel-block {
       padding: 18rem 1.5rem; } }
 
 .footer {
-  background-color: #fafafa;
+  background-color: #881129;
   padding: 3rem 1.5rem 6rem; }
 
 .accordions .accordion {
