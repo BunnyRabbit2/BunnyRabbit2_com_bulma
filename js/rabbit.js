@@ -13,12 +13,54 @@ if (document.readyState === "complete") {
     }, false);
 }
 
-function inputChange(inputValue, labelId) {
-    var inputlabel = document.getElementById(labelId + "-label");
+function inputChange(inputValue, inputId) {
+    var inputlabel = document.getElementById(inputId + "-label");
     if (inputValue != "") {
-        inputlabel.classList.remove("rb-form");
+        inputlabel.classList.remove("form-hide");
+    } else {
+        inputlabel.classList.add("form-hide");
     }
-    else {
-        inputlabel.classList.add("rb-form");
+
+    if (inputId == "email-input") {
+        var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        var emailValid = re.test(inputValue.toLowerCase());
+
+        var inputBox = document.getElementById(inputId);
+        var emailInvalidLabel = document.getElementById("email-input-label-invalid");
+
+        if (emailValid) {
+            emailInvalidLabel.classList.add("form-hide");
+            inputBox.classList.add("is-success");
+            inputBox.classList.remove("is-danger");
+        } else {
+            emailInvalidLabel.classList.remove("form-hide");
+            inputBox.classList.add("is-danger");
+            inputBox.classList.remove("is-success");
+        }
     }
 };
+
+function submitForm() {
+    if (document.getElementById("name-input").value != "" &&
+        document.getElementById("email-input").classList.contains("is-success") &&
+        document.getElementById("phone-input").value != "" &&
+        document.getElementById("message-input").value != "") {
+
+        var xmlhttp = window.XMLHttpRequest ?
+            new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+
+        xmlhttp.onreadystatechange = function () {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200)
+                alert(xmlhttp.responseText); // Here is the response
+        }
+
+        var name = document.getElementById('name-input').value;
+        var email = document.getElementById('email-input').value;
+        var phone = document.getElementById('phone-input').value;
+        var message = document.getElementById('message-input').value;
+
+        xmlhttp.open("POST", "contact_me.php", true);
+        xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        xmlhttp.send("name=" + name + "&email=" + email + "&phone=" + phone + "&message=" + message);
+    }
+}

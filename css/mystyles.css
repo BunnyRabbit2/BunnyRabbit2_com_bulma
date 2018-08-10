@@ -40,7 +40,10 @@ section.hero-extra-padding {
   padding-top: 6rem;
   padding-bottom: 6rem; }
 
-label.rb-form {
+label.form-hide {
+  display: none; }
+
+p.form-hide {
   display: none; }
 
 /*! bulma.io v0.7.1 | MIT License | github.com/jgthms/bulma */

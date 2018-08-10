@@ -60,7 +60,11 @@ section.hero-extra-padding {
     padding-bottom: 6rem;
 }
 
-label.rb-form {
+label.form-hide {
+    display:none;
+}
+
+p.form-hide {
     display:none;
 }
 
