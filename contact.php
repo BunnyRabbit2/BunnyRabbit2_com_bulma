@@ -9,43 +9,47 @@
         </div>
         <div class="columns is-centered">
             <div class="column is-half">
-                <div class="field">
-                    <div class="control has-icons-left has-icons-right">
-                        <input class="input is-large" type="text" placeholder="Name">
-                        <span class="icon is-medium is-left">
-                            <i class="fas fa-user fa-lg"></i>
-                        </span>
+                <form class="form-horizontal">
+                    <div class="field">
+                        <label id="name-input-label" class="label rb-form" for="name-input">Name</label>
+                        <div class="control has-icons-left">
+                            <input id="name-input" name="name-input" class="input is-large" type="text" placeholder="Name" onkeyup="inputChange(this.value, this.id)">
+                            <span class="icon is-medium is-left">
+                                <i class="fas fa-user fa-lg"></i>
+                            </span>
+                        </div>
                     </div>
-                </div>
-                <div class="field">
-                    <div class="control has-icons-left has-icons-right">
-                        <input class="input is-large" type="email" placeholder="Email Address">
-                        <span class="icon is-medium is-left">
-                            <i class="fas fa-at fa-lg"></i>
-                        </span>
+                    <div class="field">
+                        <label id="email-input-label" class="label rb-form" for="email-input">Email Address</label>
+                        <div class="control has-icons-left">
+                            <input id="email-input" name="email-input" class="input is-large" type="email" placeholder="Email Address" onkeyup="inputChange(this.value, this.id)">
+                            <span class="icon is-medium is-left">
+                                <i class="fas fa-at fa-lg"></i>
+                            </span>
+                        </div>
                     </div>
-                </div>
-                <div class="field">
-                    <div class="control has-icons-left has-icons-right">
-                        <input class="input is-large" type="text" placeholder="Phone Number">
-                        <span class="icon is-medium is-left">
-                            <i class="fas fa-phone fa-lg"></i>
-                        </span>
+                    <div class="field">
+                        <label id="phone-input-label" class="label rb-form" for="phone-input">Phone Number</label>
+                        <div class="control has-icons-left">
+                            <input id="phone-input" name="phone-input" class="input is-large" type="text" placeholder="Phone Number" onkeyup="inputChange(this.value, this.id)">
+                            <span class="icon is-medium is-left">
+                                <i class="fas fa-phone fa-lg"></i>
+                            </span>
+                        </div>
                     </div>
-                </div>
-                <div class="field">
-                    <div class="control has-icons-left has-icons-right">
-                        <textarea class="textarea is-large" type="text" placeholder="Message"></textarea>
-                        <span class="icon is-medium is-left">
-                            <i class="fas fa-comment-alt fa-lg"></i>
-                        </span>
+                    <div class="field">
+                        <label id="message-input-label" class="label rb-form" for="message-input">Message</label>
+                        <div class="control">
+                            <textarea id="message-input" name="message-input" class="textarea is-large" type="text" placeholder="Enter your message here"
+                                onkeyup="inputChange(this.value, this.id)"></textarea>
+                        </div>
                     </div>
-                </div>
-                <div class="field is-grouped">
-                    <div class="control">
-                        <button class="button is-info">Send Message</button>
+                    <div class="field is-grouped">
+                        <div class="control">
+                            <button id="submit-button" name="submit-button" class="button is-info">Send Message</button>
+                        </div>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
 </section>

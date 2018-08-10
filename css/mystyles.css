@@ -40,6 +40,9 @@ section.hero-extra-padding {
   padding-top: 6rem;
   padding-bottom: 6rem; }
 
+label.rb-form {
+  display: none; }
+
 /*! bulma.io v0.7.1 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
@@ -6458,7 +6461,7 @@ label.panel-block {
       padding: 18rem 1.5rem; } }
 
 .footer {
-  background-color: #A32020;
+  background-color: #921C1C;
   padding: 3rem 1.5rem 6rem; }
 
 .accordions .accordion {

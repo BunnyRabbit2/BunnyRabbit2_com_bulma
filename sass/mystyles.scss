@@ -60,5 +60,9 @@ section.hero-extra-padding {
     padding-bottom: 6rem;
 }
 
+label.rb-form {
+    display:none;
+}
+
 @import "../node_modules/bulma/bulma.sass";
 @import "../node_modules/bulma-extensions/bulma-accordion/dist/css/bulma-accordion.sass"

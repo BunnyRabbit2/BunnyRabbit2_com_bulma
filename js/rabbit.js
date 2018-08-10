@@ -12,3 +12,13 @@ if (document.readyState === "complete") {
         var accordions = bulmaAccordion.attach();
     }, false);
 }
+
+function inputChange(inputValue, labelId) {
+    var inputlabel = document.getElementById(labelId + "-label");
+    if (inputValue != "") {
+        inputlabel.classList.remove("rb-form");
+    }
+    else {
+        inputlabel.classList.add("rb-form");
+    }
+};
