@@ -2,7 +2,7 @@
 <nav class="navbar is-fixed-top is-info">
   <div class="container">
     <div class="navbar-brand">
-        <a class="navbar-item is-size-2" href="#page-top">BUNNYRABBIT2.COM</a>
+        <a class="navbar-item is-size-2 is-size-4-mobile" href="#page-top">BUNNYRABBIT2.COM</a>
       <span class="navbar-burger burger" data-target="navbarMenuHeroA">
         <span></span>
         <span></span>
