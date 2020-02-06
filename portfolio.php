@@ -23,6 +23,8 @@
 
           <?php include("projects/p_BunnyRabbit2com.php"); ?>
 
+          <?php include("projects/p_AdventofCode2019.php"); ?>
+
         </section>
       </div>
     </div>

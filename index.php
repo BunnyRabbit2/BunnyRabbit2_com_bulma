@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>My custom Bulma website</title>
+  <title>BunnyRabbit2.com</title>
 
   <meta name="description" content="">
   <meta name="author" content="">
